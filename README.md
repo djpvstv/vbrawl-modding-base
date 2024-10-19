@@ -8,6 +8,7 @@ Make a modification. For example, create a FitMario.pac and store it in private/
 
 Using VDSync, create a 2GB SD.raw. Move it and replace your existing "sd.raw" on a P+ Netplay dolphin.
 Set the repository base directory as the "Mods Folder" on the Build Options tab, set a virtual drive, and on the "Dolphin Settins" tab set the "SD Card" path as your P+ Netplay's SD card.
+You can download VDSync here: https://docs.google.com/document/d/10keWiKXYbMt1euIHl99hPukUFDKauqr3Ondf_sW_jgc/edit?tab=t.0#heading=h.bnfmylqoltu4
 
 Now hit sync.
 
