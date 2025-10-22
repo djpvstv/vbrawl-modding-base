@@ -6,3 +6,4 @@ op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
 .include KJP.txt
+.include REX.txt

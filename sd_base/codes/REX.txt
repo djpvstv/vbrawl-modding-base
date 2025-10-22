@@ -1,0 +1,19 @@
+############################################################################
+# REX.txt    												               #
+#                                                                          #
+* These are some codes that the REX team added for RAM expansion           #
+#                          												   #
+# Requires GCTRealMate and the source folder provided to assemble the GCT! #
+#																		   #
+# GCTconvert codes are compatible, if you want to add your own codes, add  #
+# them to this txt file, but be mindful of the size of the resulting GCT,  #
+# as making it too big will cause it to fail entirely!!!				   #
+#																		   #
+# If you wish to keep your new codes organized, you can also summon        #
+# separate text files by using .include Source/<filename>, 				   #
+# or simply add them to there, directly. To disable one, simply place an   #
+# exclamation point in front of the name of that code!	 				   #
+#                                                                          #
+# Enjoy your custom Brawl!!												   #
+############################################################################
+

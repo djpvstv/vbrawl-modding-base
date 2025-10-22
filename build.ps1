@@ -9,6 +9,8 @@ if (Test-Path $gctPath) {
     Start-Process -FilePath $gctPath ".\sd_base\codes\BOOST.txt" -RedirectStandardInput $enterFile -NoNewWindow -Wait
     Write-Host "`n`nCreating KingJigglyPuff Codes`n"
     Start-Process -FilePath $gctPath ".\sd_base\codes\KJP.txt" -RedirectStandardInput $enterFile -NoNewWindow -Wait
+    Write-Host "`n`nCreating REX Codes`n"
+    Start-Process -FilePath $gctPath ".\sd_base\codes\REX.txt" -RedirectStandardInput $enterFile -NoNewWindow -Wait
 } else {
     Write-Host "`nError: Cannot find GCTRealMate.exe"
 }

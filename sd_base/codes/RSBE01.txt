@@ -15,7 +15,43 @@
 # Enjoy your custom Brawl!!												   #
 ############################################################################
 
+#############################################################################
+######################          Backend Codes          ######################
+#############################################################################
 .include Source/KingJigglyPuff/P+Ex/Hooktype.asm
+.include Source/REX/Extras/USBGecko.asm 		# Adds support for debugging via USB Gecko
+.include Source/REX/Remix/RAM-EX.asm
+.include Source/REX/Project+/MemoryLayout.asm
+
+#############################################################################
+AXNextFrame -> VBI Hook Switch After Strap Screen v1.1 [Magus, Sammi-Husky]
+#############################################################################
+* 20200984 4BE00F24
+* 20497ED0 00000001
+CODE @ $80001198
+{
+	addi r6, r7, 0x4C
+	mr r3, r7
+	addi r4, r7, 0x34
+	addi r5, r7, 0x38
+}
+address $80023D5C @ $80002778
+op b -0x1E8184    @ $801E9A2C
+op blr	 	  @ $80200984
+
+PULSE
+{
+	lis r3,0x8020
+	ori r3,r3,0x0984
+	icbi r0,r3
+	lis r3,0x801E
+	ori r3,r3,0x9A2C
+	icbi r0,r3
+	isync
+	blr
+}
+
+* E2000002 00000000
 
 ######################################################
 BA and BLA are usable instructions v1.3 [Eon, taukhan]
@@ -40,23 +76,6 @@ PULSE #80568100
   blr
 }
 * E2000001 80008000
-
-##################################################
-Memory Extention for FighterXResource2 [Dantarion]
-##################################################
-int 0x91E80 @ $80421B54
-int 0x91E80 @ $80421B74
-int 0x91E80 @ $80421B94
-int 0x91E80 @ $80421BB4
-int 0x91E80 @ $80421E1C
-int 0x91E80 @ $80421E3C
-int 0x91E80 @ $80421EBC
-int 0x91E80 @ $80421EDC
-
-###############################################################
-Memory Extension for CSS/SSS MenuResource (+0.79MB) [DukeItOut]
-###############################################################
-int 0x73BA00 @ $80422384
 
 #############################################################################
 Reset multipac stage lock status between Classic & All-Star matches [wiiztec]
