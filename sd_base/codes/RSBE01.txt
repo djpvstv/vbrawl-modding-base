@@ -1,5 +1,5 @@
 ############################################################################
-# RSBE01.txt    												   #
+# RSBE01.txt    												           #
 #                        												   #
 # Requires GCTRealMate and the source folder provided to assemble the GCT! #
 #																		   #
@@ -15,7 +15,7 @@
 # Enjoy your custom Brawl!!												   #
 ############################################################################
 
-.include Source/P+Ex/Hooktype.asm
+.include Source/KingJigglyPuff/P+Ex/Hooktype.asm
 
 ######################################################
 BA and BLA are usable instructions v1.3 [Eon, taukhan]
@@ -247,7 +247,7 @@ printInstructionCrash:
 op li r7, 0 @ $801dbf60
 op li r8, 0 @ $801dbf68
 
-.include/Source/P+Ex/EffectsEX.asm
+.include Source/KingJigglyPuff/P+Ex/EffectsEX.asm
 
 ##########################################
 Sword Trail Hitlag fix [MarioDox]
@@ -315,22 +315,22 @@ buryNormal:
 	li 24, 6
 }
 
-.include Source/ProjectM/CloneEngine.asm
-.include Source/ProjectM/CustomAI.asm
+.include  Source/KingJigglyPuff/ProjectM/CloneEngine.asm
+.include  Source/KingJigglyPuff/ProjectM/CustomAI.asm
 
-!.include Source/ProjectM/SpecialModes/Rules.asm
+!.include Source/KingJigglyPuff/ProjectM/SpecialModes/Rules.asm
 
-.include Source/LegacyTE/ASLHelper.asm
-.include Source/LegacyTE/UnboundedTeamEngine.asm
+.include Source/KingJigglyPuff/LegacyTE/ASLHelper.asm
+.include Source/KingJigglyPuff/LegacyTE/UnboundedTeamEngine.asm
 
-.include Source/Project+/Articles.asm
-!.include Source/Project+/CodeMenu.asm
-.include Source/Project+/CompressPAC.asm
-.include Source/Project+/FilePatchCode.asm
-.include Source/P+Ex/WaveIDIntercept.asm
-.include Source/Project+/IndependentSub.asm
-.include Source/Project+/TrainingMode.asm
-.include Source/Project+/VictoryCamera.asm
+.include Source/KingJigglyPuff/Project+/Articles.asm
+!.include Source/KingJigglyPuff/Project+/CodeMenu.asm
+.include Source/KingJigglyPuff/Project+/CompressPAC.asm
+.include Source/KingJigglyPuff/Project+/FilePatchCode.asm
+.include Source/KingJigglyPuff/P+Ex/WaveIDIntercept.asm
+.include Source/KingJigglyPuff/Project+/IndependentSub.asm
+.include Source/KingJigglyPuff/Project+/TrainingMode.asm
+.include Source/KingJigglyPuff/Project+/VictoryCamera.asm
 
 ##########################################################
 Custom Requirements v1.3 (ProjectM) [Magus, Sammi-Husky]
@@ -708,7 +708,7 @@ hastyScroll:
   	add r26, r26, r6
 }
 
-.include Source/LegacyTE/Masquerade.asm
+.include Source/KingJigglyPuff/LegacyTE/Masquerade.asm
 
 ###################################
 Team Colour Shade Check Fix (BrawlEx) [ds22, Sammi Husky]
@@ -733,9 +733,9 @@ SFX Fade Fix PMEXv0.5 [ds22, PyotrLuzhin]
 * 38000005 901F0000
 * 60000000 00000000
 
-.include Source/Project+/CSE.asm
-.include Source/Project+/ResultsMusic.asm
-.include Source/Project+/SFXExpand.asm
+.include Source/KingJigglyPuff/Project+/CSE.asm
+.include Source/KingJigglyPuff/Project+/ResultsMusic.asm
+.include Source/KingJigglyPuff/Project+/SFXExpand.asm
 
 ################################
 ZSS Jumbo Screen Name Fix [ds22]
@@ -763,7 +763,7 @@ Snake's U-Smash can Have Horizontal Velocity [Magus]
 * 48000008 C0049560
 * 60000000 00000000
 
-.include Source/Project+/EffectCommands.asm
-.include Source/Project+/Attributes.asm
+.include Source/KingJigglyPuff/Project+/EffectCommands.asm
+.include Source/KingJigglyPuff/Project+/Attributes.asm
 
 .include BOOST.txt

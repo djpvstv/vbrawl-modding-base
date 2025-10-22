@@ -223,7 +223,7 @@ default:
 	addi r4, r4, 0x002D		#Common gfx, dizzy spark
 }
 
-.include Source/P+Ex/CreateAndThrowItem.asm
+.include Source/KingJigglyPuff/P+Ex/CreateAndThrowItem.asm
 
 ##############################################################
 Store hit Task in LA/RA-Basic 6 [MarioDox]

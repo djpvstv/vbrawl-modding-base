@@ -1,0 +1,48 @@
+############################################################################
+# KJP.txt    												               #
+#                                                                          #
+* These are codes that KingJigglyPuff added for his base vanilla brawl set #
+#                          												   #
+# Requires GCTRealMate and the source folder provided to assemble the GCT! #
+#																		   #
+# GCTconvert codes are compatible, if you want to add your own codes, add  #
+# them to this txt file, but be mindful of the size of the resulting GCT,  #
+# as making it too big will cause it to fail entirely!!!				   #
+#																		   #
+# If you wish to keep your new codes organized, you can also summon        #
+# separate text files by using .include Source/<filename>, 				   #
+# or simply add them to there, directly. To disable one, simply place an   #
+# exclamation point in front of the name of that code!	 				   #
+#                                                                          #
+# Enjoy your custom Brawl!!												   #
+############################################################################
+
+.include Source/KingJigglyPuff/Project+/StageFiles.asm
+.include Source/KingJigglyPuff/Project+/CustomRequirements.asm
+.include Source/KingJigglyPuff/Project+/Timeout.asm
+.include Source/KingJigglyPuff/Project+/PSA.asm
+.include Source/KingJigglyPuff/Project+/AnimatedCSS.asm
+.include Source/KingJigglyPuff/Project+/Hurtbox.asm
+
+.include Source/KingJigglyPuff/Project+/Items.asm
+.include Source/KingJigglyPuff/Project+/Pause.asm
+.include Source/KingJigglyPuff/Project+/Collision.asm
+
+.include Source/KingJigglyPuff/P+Ex/AllStar.asm
+.include Source/KingJigglyPuff/P+Ex/Angle.asm
+.include Source/KingJigglyPuff/P+Ex/CustomEnding.asm
+.include Source/KingJigglyPuff/P+Ex/IC-Basics.asm
+.include Source/KingJigglyPuff/P+Ex/ItemEx.asm
+.include Source/KingJigglyPuff/P+Ex/Maths.asm
+.include Source/KingJigglyPuff/P+Ex/Misc.asm
+.include Source/KingJigglyPuff/P+Ex/PassiveAnim.asm
+.include Source/KingJigglyPuff/P+Ex/PointerWizardry.asm
+.include Source/KingJigglyPuff/P+Ex/PSA.asm
+.include Source/KingJigglyPuff/P+Ex/SlotEx.asm
+.include Source/KingJigglyPuff/P+Ex/SoundbankFix.asm
+.include Source/KingJigglyPuff/P+Ex/Subspace.asm
+.include Source/KingJigglyPuff/P+Ex/VariableParameter.asm
+
+.include Source/KingJigglyPuff/Extras/Console.asm	
+
+.include Source/KingJigglyPuff/Extras/More.asm

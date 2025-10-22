@@ -645,7 +645,7 @@ op  blr  @ $8001eb94
 .RESET
 
 
-.include Source/P+Ex/ReplacementSoundbankEngine.asm
+.include Source/KingJigglyPuff/P+Ex/ReplacementSoundbankEngine.asm
 
 ########################
 SDHC Extension 1.1[Bero]

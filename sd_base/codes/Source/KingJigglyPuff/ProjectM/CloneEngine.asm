@@ -701,7 +701,7 @@ HOOK @ $8084D41C
     cmpwi r31, 45    # & Knuckles
 }
 
-.include source/P+Ex/KirbyHatEx.asm
+.include Source/KingJigglyPuff/P+Ex/KirbyHatEx.asm
 
 ###############################################################################################
 Classic and All-Star Ending Choice Engine v1.1d [DukeItOut]
